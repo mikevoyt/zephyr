@@ -31,6 +31,7 @@ extern char *strcat(char *_MLIBC_RESTRICT dest,
 extern char  *strncat(char *_MLIBC_RESTRICT dest, const char *_MLIBC_RESTRICT src,
 		      size_t n);
 extern char *strstr(const char *s, const char *find);
+extern char *strnstr(const char *s, const char *find, size_t slen);
 
 extern size_t strspn(const char *s, const char *accept);
 extern size_t strcspn(const char *s, const char *reject);

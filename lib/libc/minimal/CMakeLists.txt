@@ -13,6 +13,7 @@ zephyr_library_sources(
   source/stdlib/exit.c
   source/string/strncasecmp.c
   source/string/strstr.c
+  source/string/strnstr.c
   source/string/string.c
   source/string/strspn.c
   source/stdout/stdout_console.c
